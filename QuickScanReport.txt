@@ -1,0 +1,1 @@
+Microsoft Windows 10 build 15063 amd64 Riddick 4.7 GiB/7.9 GiB 500.11 GB Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz 4 Nucleos. 28.0 C. 0.0 Voltios. AMD64 Soporta SO de 64bits. [0] RPM.

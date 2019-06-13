@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QuickScan1.0.jnlp">
+  <information>
+    <title>QuickScan1.0</title>
+    <vendor>Riddick</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QuickScan1.0.jar" size="67271" download="eager" />
+    <jar href="lib\jHardware-0.8.4.jar" size="64367" download="eager" />
+    <jar href="lib\jna-4.2.2.jar" size="1137286" download="eager" />
+    <jar href="lib\jna-platform-4.2.2.jar" size="1856200" download="eager" />
+    <jar href="lib\oshi-core-3.2.jar" size="288327" download="eager" />
+    <jar href="lib\slf4j-api-1.7.21.jar" size="41071" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="QuickScan1.0" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="quickscan1.pkg0.QuickScan10"  name="QuickScan1.0" />
+  <update check="always"/>
+</jnlp>

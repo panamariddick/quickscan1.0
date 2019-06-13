@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quickscan1.pkg0.AcercaDeController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="318.0" layoutY="79.0" stroke="DODGERBLUE" strokeType="INSIDE" width="161.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="80.0" stroke="DODGERBLUE" strokeType="INSIDE" width="600.0" />
+      <Text fill="WHITE" layoutX="11.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QuickScan">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="17.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="by PanamaRiddick">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="48.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="." wrappingWidth="6.35791015625">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="98.0" fitWidth="91.0" layoutX="35.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/003-chip-1.png" />
+         </image>
+      </ImageView>
+      <Text fill="DODGERBLUE" layoutX="172.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acerca de los desarrolladores">
+         <font>
+            <Font name="Leelawadee UI" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="DODGERBLUE" layoutX="175.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Librerias de codigo abierto">
+         <font>
+            <Font name="Leelawadee UI" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f93ff" layoutX="176.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="225.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roderick Gonzalez R." />
+      <Text fill="#1f93ff" layoutX="175.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Artwork:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="225.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roderick Gonzalez R." />
+      <Text layoutX="225.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emilio Vega M." />
+      <Text fill="#1f93ff" layoutX="365.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contacto:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="420.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="roderickjgonzalez@outlook.com" />
+      <Text layoutX="420.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="jesusvegamoreno@gmail.com" />
+      <Text layoutX="175.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OSHI 3.2" />
+      <Hyperlink layoutX="234.0" layoutY="261.0" text="oshiproyect">
+         <tooltip>
+            <Tooltip text="https://github.com/oshi" />
+         </tooltip></Hyperlink>
+      <Button fx:id="btn_salir" layoutX="569.0" layoutY="5.0" mnemonicParsing="false" onAction="#salir" style="-fx-background-color: White; -fx-border-color: White; -fx-border-radius: 20;" text="X" textFill="DODGERBLUE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Salir" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btn_backMain" layoutX="511.0" layoutY="47.0" mnemonicParsing="false" onAction="#goQuickScan" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: White; -fx-border-color: White; -fx-border-radius: 20;" text="Regresar" textFill="DODGERBLUE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Volver a caracteristicas del pc" />
+         </tooltip>
+      </Button>
+      <Text fill="DODGERBLUE" layoutX="272.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PanamaRiddick- Free Software" wrappingWidth="170.85936963558197" />
+   </children>
+</AnchorPane>
